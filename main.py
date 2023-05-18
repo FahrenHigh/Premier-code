@@ -5,7 +5,6 @@ def demander_nom():
     return reponse_nom
 
 #--------------------------------------------------------------
-#--------------------------------------------------------------
 def demander_age(nom_personne):
     age_int = 0
     while age_int == 0:
