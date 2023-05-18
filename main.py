@@ -5,6 +5,7 @@ def demander_nom():
     return reponse_nom
 
 #--------------------------------------------------------------
+#--------------------------------------------------------------
 def demander_age(nom_personne):
     age_int = 0
     while age_int == 0:
@@ -32,7 +33,7 @@ def afficher_informations_personne(nom, age):
         print("Vous êtes presque majeur. ")
     elif age == 18:
         print("Tout juste majeur: Félicitation! ")
-    elif age >= 18:
+    elif age > 18:
         print("Vous êtes majeur. ")
     else:
         print("Vous êtes mineur. ")
